@@ -1,0 +1,32 @@
+.gnbBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+
+  padding: 50px 0;
+  color: #222;
+  z-index: 9999;
+}
+.logo {
+  font-size: 24px;
+  margin-right: auto;
+  margin-left: 110px;
+}
+.logo a {
+  font-size: 24px;
+  color: inherit;
+}
+.gnb {
+  display: flex;
+  margin-right: 177px;
+}
+
+.gnbBox:hover a {
+  color: #222;
+}
+
+.gnbList {
+  margin-left: 136px;
+  font-size: 20px;
+}

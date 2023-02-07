@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Nav from "./components/Nav";
+import SubPageNav from "./components/SubPageNav";
+
+import SubProjectPage1 from "./components/SubProjectPage1";
+import SubProjectPage2 from "./components/SubProjectPage2";
+import SubProjectPage3 from "./components/SubProjectPage3";
+import SubProjectPage4 from "./components/SubProjectPage4";
+
+import "./assets/styles/style.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <SubPageNav />
+      <Routes>
+        <Route path="/subprojectpage1" element={<SubProjectPage1 />} />
+        <Route path="/subprojectpage2" element={<SubProjectPage2 />} />
+        <Route path="/subprojectpage3" element={<SubProjectPage3 />} />
+        <Route path="/subprojectpage4" element={<SubProjectPage4 />} />
+      </Routes>
     </div>
   );
 }

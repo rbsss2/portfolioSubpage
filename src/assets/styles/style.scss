@@ -1,0 +1,17 @@
+//초기화
+@import "./reset.scss";
+
+//font
+@import "./font.scss";
+
+// 'font";
+@import "./variable.scss";
+
+body {
+  font-family: $pretendard;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
