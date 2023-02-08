@@ -2,21 +2,73 @@ section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
   .projectContainer {
-    margin: 16vw 30vw;
+    margin: 16vw 28vw 16vw 30vw;
     font-size: 24px;
     height: 100vh;
     width: 100%;
+
     h2 {
       font-weight: bold;
     }
     .projectday {
     }
-    .projectdes {
-      margin: 130px 0 0 0;
-      max-width: 1270px;
-      position: relative;
-      left: 0%;
+    .projectBox {
+      .projectLine {
+        height: 1600px;
+        background: #707070;
+        position: absolute;
+        width: 1px;
+        left: 40%;
+      }
+      .projectdes {
+        margin: 200px 0 0 0;
+        max-width: 1270px;
+        position: relative;
+        left: 0%;
+        width: 20%;
+        text-align: end;
+      }
+      .projectdes::before {
+        display: block;
+        content: "";
+        width: 9px;
+        height: 9px;
+        background-color: #fff;
+        border: 1px solid #707070;
+        border-radius: 50%;
+        left: 114.5%;
+        position: absolute;
+      }
+      h2 {
+        transform: translateY(-10px);
+      }
     }
+    .des1 {
+      margin-top: 130px;
+    }
+  }
+  .goProject {
+    position: fixed;
+    top: 16vw;
+    right: 4vw;
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  ul {
+    position: relative;
+    left: 15vw;
+    transform: translateX(-30px) translateY(-40px);
+    font-weight: 400;
+    font-size: 18px;
+    list-style: circle;
+    line-height: 30px;
+  }
+  .projectlist {
+    list-style: none;
+  }
+  strong {
   }
 }

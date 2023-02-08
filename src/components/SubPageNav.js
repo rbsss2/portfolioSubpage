@@ -5,6 +5,9 @@ function SubProjectPage1(props) {
   return (
     <nav>
       <ul className="nav">
+        {/* <li className="/">
+          <Link to="/">설명페이지</Link>
+        </li> */}
         <li className="projectNav">
           <Link to="/subprojectpage1">파이브스톤</Link>
         </li>
