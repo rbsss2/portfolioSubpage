@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioSubpage/static/css/main.23fe530b.css",
-    "main.js": "/portfolioSubpage/static/js/main.4b480c16.js",
+    "main.css": "/portfolioSubpage/static/css/main.dff05da3.css",
+    "main.js": "/portfolioSubpage/static/js/main.1823d3a4.js",
     "static/media/PretendardVariable.woff2": "/portfolioSubpage/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/NotoSans-Bold.woff": "/portfolioSubpage/static/media/NotoSans-Bold.ba396a9fc63ba86c7d0a.woff",
     "static/media/NotoSans-Regular.woff": "/portfolioSubpage/static/media/NotoSans-Regular.d19c129f30e0373f60b6.woff",
@@ -11,11 +11,11 @@
     "static/media/BasicSans-Regular.woff2": "/portfolioSubpage/static/media/BasicSans-Regular.089dac9ac5624c300613.woff2",
     "static/media/directory.PNG": "/portfolioSubpage/static/media/directory.e8e8edc814ab98b60de9.PNG",
     "index.html": "/portfolioSubpage/index.html",
-    "main.23fe530b.css.map": "/portfolioSubpage/static/css/main.23fe530b.css.map",
-    "main.4b480c16.js.map": "/portfolioSubpage/static/js/main.4b480c16.js.map"
+    "main.dff05da3.css.map": "/portfolioSubpage/static/css/main.dff05da3.css.map",
+    "main.1823d3a4.js.map": "/portfolioSubpage/static/js/main.1823d3a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.23fe530b.css",
-    "static/js/main.4b480c16.js"
+    "static/css/main.dff05da3.css",
+    "static/js/main.1823d3a4.js"
   ]
 }
