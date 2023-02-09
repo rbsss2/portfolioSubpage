@@ -84,7 +84,7 @@ function PortfolioSubPage(props) {
               다음 프로젝트 진행 시 가로스크롤 페이지 구성
             </li>
             <li>
-              <strong>소개</strong> - gitHub 연동을 위한 subPage SPA 구현
+              <strong>소개</strong> - subPage SPA 구현
               <br />
               <strong>목표</strong> - URL 라우팅을 위한 React Router 표준
               라이브러리 사용
