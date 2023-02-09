@@ -15,13 +15,15 @@ function App() {
     <div>
       <Nav />
       <SubPageNav />
-
       <Routes>
-        <Route path="/" element={<PortfolioSubPage />} />
-        <Route path="/subprojectpage1" element={<SubProjectPage1 />} />
-        <Route path="/subprojectpage2" element={<SubProjectPage2 />} />
-        <Route path="/subprojectpage3" element={<SubProjectPage3 />} />
-        <Route path="/subprojectpage4" element={<SubProjectPage4 />} />
+        <Route path="/">
+          <Route index element={<PortfolioSubPage />} />
+
+          <Route path="/subprojectpage1" element={<SubProjectPage1 />} />
+          <Route path="/subprojectpage2" element={<SubProjectPage2 />} />
+          <Route path="/subprojectpage3" element={<SubProjectPage3 />} />
+          <Route path="/subprojectpage4" element={<SubProjectPage4 />} />
+        </Route>
       </Routes>
     </div>
   );
