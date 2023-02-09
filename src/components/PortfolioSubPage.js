@@ -64,7 +64,7 @@ function PortfolioSubPage(props) {
             <li>
               <strong>소개</strong> - Navigation
               <br />
-              <strong>목표</strong> - Routes link를 이용한 페이지 전환
+              <strong>목표</strong> - Routes link를 이용한 내부 페이지 전환
               <br />
               <strong>문제</strong> - jQuery 사용 시 a태그로만 이동이 가능함을
               깨달음
@@ -73,7 +73,7 @@ function PortfolioSubPage(props) {
               생성하여 Routes,Link 구현 함
             </li>
             <li>
-              <strong>소개</strong> - ProjectPage
+              <strong>소개</strong> - ProjectPage 구현
               <br />
               <strong>목표</strong> - 버튼을 최소화하고자 가로스크롤 구현
               <br />
@@ -82,6 +82,18 @@ function PortfolioSubPage(props) {
               <br />
               <strong>해결</strong> - swiper로 대체하여 라이브러리 사용토록 함.
               다음 프로젝트 진행 시 가로스크롤 페이지 구성
+            </li>
+            <li>
+              <strong>소개</strong> - gitHub 연동을 위한 subPage SPA 구현
+              <br />
+              <strong>목표</strong> - URL 라우팅을 위한 React Router 표준
+              라이브러리 사용
+              <br />
+              <strong>문제</strong> - Browser Router를 사용하였으나 웹브라우저
+              홈 경로 리소스를 정상적으로 불러오지 못함
+              <br />
+              <strong>해결</strong> - Hash Router를 사용. 서버구축이 되지 않아
+              URL을 재로드할 필요는 없으나 홈페이지 URL이 SEO측면에서 구리다.
             </li>
           </ul>
         </article>
