@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolioSubpage/static/css/main.dff05da3.css",
-    "main.js": "/portfolioSubpage/static/js/main.2bf09214.js",
+    "main.css": "/portfolioSubpage/static/css/main.58bfa0c3.css",
+    "main.js": "/portfolioSubpage/static/js/main.466e6e5e.js",
     "static/media/PretendardVariable.woff2": "/portfolioSubpage/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/NotoSans-Bold.woff": "/portfolioSubpage/static/media/NotoSans-Bold.ba396a9fc63ba86c7d0a.woff",
     "static/media/NotoSans-Regular.woff": "/portfolioSubpage/static/media/NotoSans-Regular.d19c129f30e0373f60b6.woff",
     "static/media/NotoSans-Medium.woff": "/portfolioSubpage/static/media/NotoSans-Medium.e892f21f7dd918a8fab9.woff",
     "static/media/NotoSans-DemiLight.woff": "/portfolioSubpage/static/media/NotoSans-DemiLight.1ada0fb3924828015f3b.woff",
+    "static/media/cording.PNG": "/portfolioSubpage/static/media/cording.a2c15e8d392ac1ed67dd.PNG",
     "static/media/BasicSans-Regular.woff": "/portfolioSubpage/static/media/BasicSans-Regular.b99290147a48446744f9.woff",
     "static/media/BasicSans-Regular.woff2": "/portfolioSubpage/static/media/BasicSans-Regular.089dac9ac5624c300613.woff2",
     "static/media/directory.PNG": "/portfolioSubpage/static/media/directory.e8e8edc814ab98b60de9.PNG",
     "index.html": "/portfolioSubpage/index.html",
-    "main.dff05da3.css.map": "/portfolioSubpage/static/css/main.dff05da3.css.map",
-    "main.2bf09214.js.map": "/portfolioSubpage/static/js/main.2bf09214.js.map"
+    "main.58bfa0c3.css.map": "/portfolioSubpage/static/css/main.58bfa0c3.css.map",
+    "main.466e6e5e.js.map": "/portfolioSubpage/static/js/main.466e6e5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.dff05da3.css",
-    "static/js/main.2bf09214.js"
+    "static/css/main.58bfa0c3.css",
+    "static/js/main.466e6e5e.js"
   ]
 }
