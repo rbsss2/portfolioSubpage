@@ -16,7 +16,7 @@ section {
     }
     .projectBox {
       .projectLine {
-        height: 1600px;
+        height: 2600px;
         background: #707070;
         position: absolute;
         width: 1px;
@@ -65,10 +65,30 @@ section {
     font-size: 18px;
     list-style: circle;
     line-height: 30px;
+    li {
+    }
   }
   .projectlist {
     list-style: none;
   }
-  strong {
+  .titleBox {
+    margin-top: 3vw;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+    padding-top: 2vw;
+  }
+  .subtitle {
+    // background-color: #f5f5f5;
+    width: 100%;
+    border: #666666 2px;
+    padding: 6px;
+  }
+  .sub {
+    // color: #2e2eec;
+    font-weight: bold;
   }
 }

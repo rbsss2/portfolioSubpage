@@ -1,5 +1,7 @@
 import "../styles/subprojectpage.scss";
 import img1 from "../assets/images/directory.PNG";
+import { FaQuestion } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 function PortfolioSubPage(props) {
   return (
@@ -28,18 +30,16 @@ function PortfolioSubPage(props) {
             <h2>사용 기술</h2>
           </div>
           <ul>
-            <li>jQuery</li>
-            <li>react</li>
+            <li>react 프레임워크</li>
             <li>scss 스타일</li>
             <li>Tool - VS Code,GitHub, figma</li>
-            <li>라이브러리 - swiper</li>
+            <li>라이브러리 - swiper, fullpage jQuery </li>
             <li>일러스트 - favicon 제작</li>
           </ul>
           <div className="projectdes">
             <h2>페이지 구성 </h2>
           </div>
           <ul>
-            <li>fullpage - CDN 이용하여 jQuery 사용 </li>
             <li>Nav - jQuery 사용으로 a태그 네비게이션 설정</li>
             <li>Main - video 태그 설정 keyframes를 이용한 애니메이션</li>
             <li>Project - 라이브러리 swiper를 이용한 Slide 구현</li>
@@ -50,50 +50,92 @@ function PortfolioSubPage(props) {
             <h2>문제 및 해결</h2>
           </div>
           <ul>
-            <li>
-              <strong>소개</strong> - fullpage 구현
+            <li className="description">
+              <span className="subtitle">
+                jQuery를 이용하지 않고
+                <span className="sub">
+                  {" "}
+                  fullpage구현 방법이 없는지 고민
+                </span>{" "}
+                <FaQuestion />
+              </span>
               <br />
-              <strong>목표</strong> - jQuery를 이용하지 않고 구현하는 방법이
-              없는지 고민
+              <p className="title">문제</p>
+              <span className="subtitle">
+                - CSS3 scroll-snap 를 이용하여 구현하였으나 스크롤 시
+                <span className="sub">
+                  {" "}
+                  페이지 전환 동작이 원활하게 되지 않음.
+                </span>
+              </span>
               <br />
-              <strong>문제</strong> - CSS3 scroll-snap 를 이용하여 구현하였으나
-              스크롤 시 페이지 전환 동작이 깔끔하지 못함
-              <br />
-              <strong>해결</strong> - jQuery가 깔끔하여서 사용하기로 함.
+              <p className="title">해결</p>
+              <span className="subtitle">
+                - 비교적{" "}
+                <span className="sub">라이브러리 jQuery가 원활하여 사용</span>
+                하기로 함.
+              </span>
             </li>
-            <li>
-              <strong>소개</strong> - Navigation
+            <li className="titleBox description">
+              <span className="subtitle">
+                Navigation을 Routes link를 이용한{" "}
+                <span className="sub">내부 페이지 전환</span> <FaCheck />
+              </span>
               <br />
-              <strong>목표</strong> - Routes link를 이용한 내부 페이지 전환
+
+              <p className="title">문제</p>
+              <span className="subtitle">
+                - jQuery 사용 시 a태그로만 이동이 가능함을 깨달음
+              </span>
               <br />
-              <strong>문제</strong> - jQuery 사용 시 a태그로만 이동이 가능함을
-              깨달음
-              <br />
-              <strong>해결</strong> - fullpage가 아닌 SubPage 내에서 subNav
-              생성하여 Routes,Link 구현 함
+
+              <p className="title">해결</p>
+              <span className="subtitle">
+                - fullpage가 아닌
+                <span className="sub">SubPage 내에서 subNav 생성하여</span>
+                Routes,Link 구현 함
+              </span>
             </li>
-            <li>
-              <strong>소개</strong> - ProjectPage 구현
+            <li className="titleBox description">
+              <span className="subtitle">
+                ProjectPage를 버튼을 최소화하고자
+                <span className="sub"> 가로스크롤로 구현</span> <FaCheck />
+              </span>
               <br />
-              <strong>목표</strong> - 버튼을 최소화하고자 가로스크롤 구현
+              <p className="title">문제</p>
+              <span className="subtitle">
+                - HTML5/CSS3/JS로 구현하였으나 React로는 구현이 되지 않음.
+              </span>
+
               <br />
-              <strong>문제</strong> - HTML5/CSS3/JS로 구현하였으나 React로는
-              구현이 되지 않음.
-              <br />
-              <strong>해결</strong> - swiper로 대체하여 라이브러리 사용토록 함.
-              다음 프로젝트 진행 시 가로스크롤 페이지 구성
+              <p className="title">해결</p>
+              <span className="subtitle">
+                -{" "}
+                <span className="sub">
+                  swiper로 대체하여 라이브러리 사용 함.{" "}
+                </span>
+                다음 프로젝트 진행 시 가로스크롤 페이지 구성
+              </span>
             </li>
-            <li>
-              <strong>소개</strong> - subPage SPA 구현
+            <li className="titleBox description">
+              <span className="subtitle">
+                subPage <span className="sub">SPA 구현</span> 시 URL 라우팅을
+                위한 React Router 표준 라이브러리 사용
+              </span>{" "}
+              <FaCheck />
               <br />
-              <strong>목표</strong> - URL 라우팅을 위한 React Router 표준
-              라이브러리 사용
+              <p className="title">문제</p>
+              <span className="subtitle">
+                - <span className="sub">Browser Router</span>를 사용하였으나
+                웹브라우저 홈 경로 리소스를 정상적으로 불러오지 못함
+              </span>
               <br />
-              <strong>문제</strong> - Browser Router를 사용하였으나 웹브라우저
-              홈 경로 리소스를 정상적으로 불러오지 못함
-              <br />
-              <strong>해결</strong> - Hash Router를 사용. 서버구축이 되지 않아
-              URL을 재로드할 필요는 없으나 홈페이지 URL이 SEO측면에서 구리다.
+              <p className="title">해결</p>
+              <span className="subtitle">
+                - <span className="sub">Hash Router</span> 사용. 서버구축이 되지
+                않아 URL을 재로드할 필요는 없으나 홈페이지 URL이 SEO측면에서
+                구리다.
+              </span>
             </li>
           </ul>
         </article>
