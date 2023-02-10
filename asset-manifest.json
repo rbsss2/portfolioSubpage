@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioSubpage/static/css/main.0f8f62a0.css",
+    "main.css": "/portfolioSubpage/static/css/main.c888b26a.css",
     "main.js": "/portfolioSubpage/static/js/main.d2b0169c.js",
     "static/media/PretendardVariable.woff2": "/portfolioSubpage/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/NotoSans-Bold.woff": "/portfolioSubpage/static/media/NotoSans-Bold.ba396a9fc63ba86c7d0a.woff",
@@ -11,11 +11,11 @@
     "static/media/BasicSans-Regular.woff2": "/portfolioSubpage/static/media/BasicSans-Regular.089dac9ac5624c300613.woff2",
     "static/media/directory.PNG": "/portfolioSubpage/static/media/directory.e8e8edc814ab98b60de9.PNG",
     "index.html": "/portfolioSubpage/index.html",
-    "main.0f8f62a0.css.map": "/portfolioSubpage/static/css/main.0f8f62a0.css.map",
+    "main.c888b26a.css.map": "/portfolioSubpage/static/css/main.c888b26a.css.map",
     "main.d2b0169c.js.map": "/portfolioSubpage/static/js/main.d2b0169c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f8f62a0.css",
+    "static/css/main.c888b26a.css",
     "static/js/main.d2b0169c.js"
   ]
 }
